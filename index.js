@@ -16,7 +16,7 @@ var fs = require('fs');
 
 // Define request response in root URL (/) and response with text
 app.get('/', function (req, res) {
-  res.send('Hello from Gene42 // ' + date_ob)
+  res.send('Welcome to the wonderful world of DevOps // ' + date_ob)
 })
 
 //Launch listening server on port 8080 and consoles the log.
