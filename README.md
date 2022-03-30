@@ -11,14 +11,16 @@ https://faun.pub/a-simple-docker-setup-for-simple-hello-world-nodejs-application
 ==================================
 
 Login via SSH command-line to the test system
-- Hostname: localhost (provide external hostname if possible)
-- Username: ubuntu
-- SSH private key: (generate key and provide below)
+* Hostname: localhost (provide external hostname if possible)
+* Username: ubuntu
+* SSH private key: (generate key and provide below)
 
 A simple NodeJS webapp is deployed, app can be launched by 
 changing to the directory and invoking:
+```
 cd ./devops-exam
 node ./index.js
+```
 
 The webapp should be reachable at the following URL:
 http://localhost:8080/
